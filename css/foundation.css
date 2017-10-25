@@ -2141,7 +2141,7 @@ a {
   a img {
     border: 0; }
 
-/*@media screen and (max-width: 636px){
+@media screen and (max-width: 636px){
   a span {
     font-size: 1rem;
     letter-spacing: 0.2rem;
@@ -2165,10 +2165,17 @@ a {
 }
 @media screen and (max-width: 507px){
   a span {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    letter-spacing: 0rem;
   }
 }
-@media screen and (max-width: 488px){
+@media screen and (max-width: 458px){
+  a span {
+    font-size: 1rem;
+    letter-spacing: 0rem;
+  }
+}
+/*@media screen and (max-width: 488px){
   a span {
     font-size: 0.85rem;
   }
