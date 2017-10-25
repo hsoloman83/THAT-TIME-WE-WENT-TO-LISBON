@@ -2129,6 +2129,11 @@ h1 {
     h1 {
       font-size: 1rem;
       margin-bottom: 0;
+      letter-spacing: 0;
+    }
+    .callout.large.primary{
+      padding-top: 1rem;
+      padding-bottom: 0.2rem;
     }
   }
 h2 {
@@ -3328,6 +3333,15 @@ select {
   .menu a,
   .menu button {
     margin-bottom: 0.7rem; }
+
+    @media screen and (max-width: 360px){
+      .menu a{
+        margin-bottom: 0.1rem;
+        padding: 0.6rem;
+      }
+    }
+
+
   .menu input {
     display: inline-block; }
   .menu, .menu.horizontal {
