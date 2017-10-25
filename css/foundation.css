@@ -2141,7 +2141,7 @@ a {
   a img {
     border: 0; }
 
-@media screen and (max-width: 636px){
+/*@media screen and (max-width: 636px){
   a span {
     font-size: 1rem;
     letter-spacing: 0.2rem;
@@ -2213,7 +2213,7 @@ a {
   a span {
     font-size: 0.4rem;
   }
-}
+}*/
 hr {
   clear: both;
   max-width: 75rem;
