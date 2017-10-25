@@ -2130,8 +2130,12 @@ a {
   color: #1e3966;
   text-decoration: none;
   cursor: pointer;
-
 }
+
+.read{
+  font-weight: bold;
+}
+
   a:hover, a:focus {
     color: #1e3966; }
   a img {
