@@ -2136,6 +2136,19 @@ h1 {
       padding-bottom: 0.2rem;
     }
   }
+  @media screen and (max-width: 320px){
+    h1 {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      letter-spacing: 0;
+    }
+    .callout.large.primary{
+      padding-top: 1rem;
+      padding-bottom: 0.2rem;
+      padding-right: 0rem;
+      padding-left: 0rem;
+    }
+  }
 h2 {
   font-family: 'Nunito', Helvetica, sans-serif;
   font-size: 2.5rem;
@@ -3338,6 +3351,13 @@ select {
       .menu a{
         margin-bottom: 0.1rem;
         padding: 0.6rem;
+      }
+    }
+    @media screen and (max-width: 320px){
+      .menu a{
+        letter-spacing: 0rem;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem;
       }
     }
 
@@ -5773,6 +5793,13 @@ a.thumbnail {
       font-size: 2rem;
     }
     }
+    @media screen and (max-width: 320px){
+      .blog-post1 {
+        padding-top: 7em;}
+      h2{
+        font-size: 2rem;
+      }
+      }
 
 /*@media screen and (max-width: 639px){
   .blog-post1 {
